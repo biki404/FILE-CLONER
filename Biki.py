@@ -7,7 +7,7 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from libdump import menu
+    from biki import menu
     menu()
 elif bit == '32bit':
     print "Opps Your Device Not Supported"
