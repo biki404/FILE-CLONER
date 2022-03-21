@@ -1,6 +1,4 @@
-import os, platform
-try:
-    import requests
+import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
     from biki import reg
