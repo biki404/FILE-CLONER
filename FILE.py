@@ -7,12 +7,12 @@ from time import sleep
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from biki import main
+    from qu import xsxsxlll
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    main()
+    xsxsxlll()
 elif bit == '32bit':
-    from d32 import main
+    from biki import xsxsxlll
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    main()
+    xsxsxlll()
